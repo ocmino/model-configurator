@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
+
 function App() {
   const models = [
     {
@@ -15,7 +16,7 @@ function App() {
     },
     {
       name: "Pool",
-      src: "/models/pool.gltf",
+      src: "/models/Pool.gltf", 
     },
   ];
 
@@ -59,12 +60,10 @@ function App() {
         <model-viewer
           style={{ width: "100%", height: "90%" }}
           src={models[0].src}
-          camera-controls
-          touch-action="pan-y"
-          autoplay
+          alt="A 3D model of an astronaut"
           ar
-          ar-modes="webxr scene-viewer"
-          shadow-intensity="1"
+          auto-rotate
+          camera-controls
         ></model-viewer>
       </div>
 
