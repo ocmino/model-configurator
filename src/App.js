@@ -15,6 +15,10 @@ function App() {
       name: "Car",
       src: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/ToyCar/glTF-Binary/ToyCar.glb",
     },
+    {
+      name: "Pool",
+      src: "models/Pool.glb",
+    },
   ];
 
   const [modelViewerStyle, setModelViewerStyle] = useState({});
