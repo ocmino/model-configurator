@@ -55,11 +55,17 @@ function App() {
     <div className="App">
       <div style={modelViewerStyle}>
         <model-viewer
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "100%", height: "90%" }}
           src={models[0].src}
           auto-rotate
           camera-controls
-        ></model-viewer>
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+        >
+          <button slot="ar-button" className="button">
+            AR
+          </button>
+        </model-viewer>
       </div>
 
       <div className="configurator">
