@@ -58,12 +58,14 @@ function App() {
     <div className="App">
       <div style={modelViewerStyle}>
         <model-viewer
-          style={{ width: "100%", height: "90%" }}
+          style={{ width: "100%", height: "100%" }}
           src={models[0].src}
           alt="A 3D model of an astronaut"
           ar
           auto-rotate
-          camera-controls
+          camera-controls 
+          skybox-image="https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr"
+
         ></model-viewer>
       </div>
 
