@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-
 function App() {
   const models = [
     {
@@ -16,7 +15,7 @@ function App() {
     },
     {
       name: "Pool",
-      src: "/models/Pool.gltf", 
+      src: "/models/Pool.gltf",
     },
   ];
 
@@ -63,9 +62,8 @@ function App() {
           alt="A 3D model of an astronaut"
           ar
           auto-rotate
-          camera-controls 
+          camera-controls
           skybox-image="https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr"
-
         ></model-viewer>
       </div>
 
