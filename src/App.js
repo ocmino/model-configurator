@@ -17,7 +17,7 @@ function App() {
     },
     {
       name: "Pool",
-      src: "https://mywebar.com/p/Project_2_sqdtswmqir?_ga=2.5235443.1740868014.1677749285-697885808.1677585164",
+      src: "https://mywebar-a.akamaihd.net/64909/174689/Swimming_pool_343.glb",
     },
   ];
 
