@@ -57,15 +57,11 @@ function App() {
         <model-viewer
           style={{ width: "100%", height: "90%" }}
           src={models[0].src}
+          alt="A 3D model of an astronaut"
+          ar
           auto-rotate
           camera-controls
-          ar
-          ar-modes="webxr scene-viewer quick-look"
-        >
-          <button slot="ar-button" className="button">
-            AR
-          </button>
-        </model-viewer>
+        ></model-viewer>
       </div>
 
       <div className="configurator">
