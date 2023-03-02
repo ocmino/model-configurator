@@ -2,22 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
+
   const models = [
     {
-      name: "Astronaut",
-      src: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-    },
-    {
-      name: "Neil",
-      src: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
-    },
-    {
-      name: "Car",
-      src: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/ToyCar/glTF-Binary/ToyCar.glb",
-    },
-    {
       name: "Pool",
-      src: "https://mywebar-a.akamaihd.net/64909/174689/Swimming_pool_343.glb",
+      src: "https://mywebar-a.akamaihd.net/64909/174689/Swimming_pool_343.glb"
     },
   ];
 
@@ -50,10 +39,7 @@ function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const changeModel = (e) => {
-    const modelViewer = document.querySelector("model-viewer");
-    modelViewer.src = e.target.value;
-  };
+
 
   return (
     <div className="App">
@@ -61,7 +47,6 @@ function App() {
         <model-viewer
           style={{ width: "100%", height: "90%" }}
           src={models[0].src}
-          alt="A 3D model of an astronaut"
           ar
           auto-rotate
           camera-controls
@@ -73,18 +58,15 @@ function App() {
         ></model-viewer>
       </div>
 
-      <div className="configurator">
-        {models.map((model) => (
-          <button
-            className="button"
-            key={model.name}
-            value={model.src}
-            onClick={(e) => changeModel(e)}
-          >
-            {model.name}
-          </button>
-        ))}
-      </div>
+   
+      <button
+        onClick={() => {
+          window.location.href = "https://mywebar.com/p/Project_2_sqdtswmqir?_ga=2.101040833.1740868014.1677749285-697885808.1677585164";
+        }}
+      >
+       View in AR
+      </button>
+
     </div>
   );
 }
