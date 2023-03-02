@@ -6,14 +6,17 @@ function App() {
     {
       name: "Astronaut",
       src: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+      link: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
     },
     {
       name: "Neil",
       src: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
+      link: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
     },
     {
       name: "Car",
       src: "https://mywebar-a.akamaihd.net/64909/174689/Swimming_pool_343.glb",
+      link: "https://mywebar.com/p/Project_2_sqdtswmqir?_ga=2.107995714.1740868014.1677749285-697885808.1677585164",
     },
   ];
 
@@ -69,7 +72,7 @@ function App() {
           <button
             className="button"
             key={model.name}
-            value={model.src}
+            value={model.link}
             onClick={(e) => changeModel(e)}
           >
             {model.name}
