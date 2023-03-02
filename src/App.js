@@ -17,7 +17,7 @@ function App() {
     },
     {
       name: "Pool",
-      src: "models/Pool.glb",
+      src: "https://mywebar.com/p/Project_2_sqdtswmqir?_ga=2.5235443.1740868014.1677749285-697885808.1677585164",
     },
   ];
 
@@ -65,6 +65,11 @@ function App() {
           ar
           auto-rotate
           camera-controls
+          shadow-intensity="1"
+          exposure="1"
+          environment-image="neutral"
+          interaction-prompt="none"
+          interaction-policy="allow-when-focused"
         ></model-viewer>
       </div>
 
