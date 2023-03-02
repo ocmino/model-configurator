@@ -1,0 +1,159 @@
+{
+  "objects": [
+    {
+      "id": -90808400,
+      "object_list_id": 3017,
+      "vars": {},
+      "allow_upload": [],
+      "transform_scale_x": 1,
+      "transform_scale_y": 0.1,
+      "transform_scale_z": 1,
+      "transform_pos_x": -0.22,
+      "transform_pos_y": 0.1,
+      "transform_pos_z": -0.85,
+      "transform_rot_x": 0,
+      "transform_rot_y": 0,
+      "transform_rot_z": 0,
+      "transform_rot_w": 0,
+      "visible": true,
+      "captionLong": "\t(Occlusion Cube)",
+      "behaviours": []
+    },
+    {
+      "id": -90808200,
+      "object_list_id": 3017,
+      "vars": {},
+      "allow_upload": [],
+      "transform_scale_x": 1,
+      "transform_scale_y": 0.1,
+      "transform_scale_z": 1,
+      "transform_pos_x": -0.19,
+      "transform_pos_y": 0.1,
+      "transform_pos_z": 0.72,
+      "transform_rot_x": 0,
+      "transform_rot_y": 0,
+      "transform_rot_z": 0,
+      "transform_rot_w": 0,
+      "visible": true,
+      "captionLong": "\t(Occlusion Cube)",
+      "behaviours": []
+    },
+    {
+      "id": -90808300,
+      "object_list_id": 3017,
+      "vars": {},
+      "allow_upload": [],
+      "transform_scale_x": 1,
+      "transform_scale_y": 0.1,
+      "transform_scale_z": 0.64,
+      "transform_pos_x": -1.19,
+      "transform_pos_y": 0.1,
+      "transform_pos_z": -0.05,
+      "transform_rot_x": 0,
+      "transform_rot_y": 0,
+      "transform_rot_z": 0,
+      "transform_rot_w": 0,
+      "visible": true,
+      "captionLong": "\t(Occlusion Cube)",
+      "behaviours": []
+    },
+    {
+      "id": -90808500,
+      "object_list_id": 3017,
+      "vars": {},
+      "allow_upload": [],
+      "transform_scale_x": 1,
+      "transform_scale_y": 0.1,
+      "transform_scale_z": 0.62,
+      "transform_pos_x": 0.78,
+      "transform_pos_y": 0,
+      "transform_pos_z": -0.05,
+      "transform_rot_x": 0,
+      "transform_rot_y": 0,
+      "transform_rot_z": 0,
+      "transform_rot_w": 0,
+      "visible": true,
+      "captionLong": "\t(Occlusion Cube)",
+      "behaviours": []
+    },
+    {
+      "id": -90808000,
+      "object_list_id": 2,
+      "caption": "Swimming_pool_343.glb",
+      "vars": {
+        "url": "https://mywebar-a.akamaihd.net/64909/174689/Swimming_pool_343.glb"
+      },
+      "allow_upload": {
+        "url": {
+          "maxSize": 52428800,
+          "ext": [
+            "glb",
+            "fbx",
+            "dae"
+          ]
+        }
+      },
+      "transform_scale_x": 1,
+      "transform_scale_y": 1,
+      "transform_scale_z": 1,
+      "transform_pos_x": 0,
+      "transform_pos_y": 0,
+      "transform_pos_z": 0,
+      "transform_rot_x": 0,
+      "transform_rot_y": 0,
+      "transform_rot_z": 0,
+      "transform_rot_w": 0,
+      "visible": true,
+      "captionLong": "Swimming_pool_343.glb\t(Model 3D)",
+      "behaviours": [
+        {
+          "id": 643161,
+          "behaviour_list_id": 7,
+          "source_page_object_id": -90808000,
+          "page_object_id": -90808000,
+          "rules": {
+            "Index": "required|numeric",
+            "Loop": "required|boolean",
+            "Stop_animation_on_last_frame": "boolean",
+            "Delay": "numeric"
+          },
+          "allow_upload": [],
+          "vars": {
+            "Index": "0",
+            "Loop": 0,
+            "Stop_animation_on_last_frame": 0,
+            "Delay": "0"
+          }
+        }
+      ]
+    },
+    {
+      "id": -90819400,
+      "object_list_id": 11,
+      "caption": "Color 0xffffff, Intensity 1, Distance 0, Angle 0.5, Penumbra 0, Decay 1",
+      "vars": {
+        "Color": "0xffffff",
+        "Intensity": 1,
+        "Distance": 0,
+        "Angle": 0.5,
+        "Penumbra": 0,
+        "Decay": 1
+      },
+      "allow_upload": [],
+      "transform_scale_x": 1,
+      "transform_scale_y": 1,
+      "transform_scale_z": 1,
+      "transform_pos_x": 0,
+      "transform_pos_y": 1,
+      "transform_pos_z": 0,
+      "transform_rot_x": 0,
+      "transform_rot_y": 0,
+      "transform_rot_z": 0,
+      "transform_rot_w": 0,
+      "visible": true,
+      "captionLong": "Color 0xffffff, Intensity 1, Distance 0, Angle 0.5, Penumbra 0, Decay 1\t(Spot Light)",
+      "behaviours": []
+    }
+  ],
+  "isMywebarProject": true
+}

@@ -14,9 +14,8 @@ function App() {
       link: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
     },
     {
-      name: "Car",
-      src: "https://mywebar-a.akamaihd.net/64909/174689/Swimming_pool_343.glb",
-      link: "https://mywebar.com/p/Project_2_sqdtswmqir?_ga=2.107995714.1740868014.1677749285-697885808.1677585164",
+      name: "Pool",
+      src: "/models/pool.gltf",
     },
   ];
 
@@ -60,10 +59,12 @@ function App() {
         <model-viewer
           style={{ width: "100%", height: "90%" }}
           src={models[0].src}
-          alt="A 3D model of an astronaut"
-          ar
-          auto-rotate
           camera-controls
+          touch-action="pan-y"
+          autoplay
+          ar
+          ar-modes="webxr scene-viewer"
+          shadow-intensity="1"
         ></model-viewer>
       </div>
 
@@ -72,7 +73,7 @@ function App() {
           <button
             className="button"
             key={model.name}
-            value={model.link}
+            value={model.src}
             onClick={(e) => changeModel(e)}
           >
             {model.name}
